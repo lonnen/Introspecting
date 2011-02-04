@@ -1,8 +1,8 @@
 {
   "name": "introspecting",
-  "fullName": "introspecting",
-  "description": "a basic add-on",
-  "author": "",
-  "license": "MPL 1.1/GPL 2.0/LGPL 2.1",
+  "fullName": "Introspecting",
+  "description": "A Processing.py sketch introspection tool",
+  "author": "Chris Lonnen",
+  "license": "MIT",
   "version": "0.1"
 }
