@@ -1,7 +1,7 @@
 {
   "name": "introspecting",
   "fullName": "Introspecting",
-  "description": "A Processing.py sketch introspection tool",
+  "description": "a tool to assist with Processing.js development",
   "author": "Chris Lonnen",
   "license": "MIT",
   "version": "0.1"

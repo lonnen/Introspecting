@@ -1,5 +1,3 @@
-This is the introspecting add-on.  It contains:
+Instrospecting is a FireFox add-on for interacting with running instances of Processing.js
 
-* A program (lib/main.js).
-* A few tests.
-* Some meager documentation.
+Requires FF4 or later.
