@@ -1,8 +1,9 @@
 {
-  "name": "introspecting",
-  "fullName": "Introspecting",
-  "description": "a tool to assist with Processing.js development",
-  "author": "Chris Lonnen",
-  "license": "MIT",
-  "version": "0.1"
+    "name": "introspecting", 
+    "license": "MIT", 
+    "author": "Chris Lonnen", 
+    "version": "0.1", 
+    "fullName": "Introspecting", 
+    "id": "jid0-Nvwfo52rRu2BSFC12rAUjrQOuEk", 
+    "description": "a tool to assist with Processing.js development"
 }
