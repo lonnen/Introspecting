@@ -1,4 +1,5 @@
-const main = require("main");
+// TODO: tests.
+/*const main = require("main");
 
 exports.test_test_run = function(test) {
   test.pass("Unit test running!");
@@ -30,3 +31,4 @@ exports.test_open_tab = function(test) {
   });
   test.waitUntilDone(20000);
 };
+*/
