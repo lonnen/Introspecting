@@ -24,6 +24,7 @@ LiveCoding
 The console can be used for live codeing. Try the following series of lines to get started:
 
 > draw = function(){ background(0); ellipse(mouseX, mouseY, pmouseX, pmouseY); }
+
 > stroke(200, 200, 0)
 
 This should black out the sketch and create an ellipse that deforms and follows the mouse around
