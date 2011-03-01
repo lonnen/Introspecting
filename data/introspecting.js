@@ -38,13 +38,13 @@ CommandLine.prototype = {
       try {
         eval(this.cursus.value);
       } catch (e) {
-        Processing.logger.log("Introspecting error: " + e);
+        Processing.instances[parseInt(this.instanceNum.value)].println("Introspecting error: " + e);
       }
     };
   },
   refreshInstances: function() {
     while (this.instanceNum.firstChild) {
-      this.instanceNum.removeChild(firstChild);
+      this.instanceNum.removeChild(this.instanceNum.firstChild);
     }    
 
     var opt = this.instanceNum.appendChild(document.createElement('option'));
@@ -56,7 +56,7 @@ CommandLine.prototype = {
       opt.textContent = i.toString();
       if (i === 0) {opt.selected = true;}
     }
-    
+
     this.instanceNum.style.visibility = (Processing.instances.length < 2) ? 'hidden' : 'visible';
   }
 }
